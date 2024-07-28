@@ -79,7 +79,7 @@ function writePage() {
     console.log("alt text to print - " + altText);
     //
     page =
-      `<img data-modal="modal-one" alt="` +
+      `<img alt="` +
       altText +
       `" title="` +
       altText +
