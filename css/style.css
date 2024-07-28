@@ -8,6 +8,7 @@ main,
 section,
 article {
   box-sizing: border-box;
+  width: 100%;
 }
 
 /* universal background color */
