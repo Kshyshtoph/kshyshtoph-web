@@ -105,7 +105,6 @@ header #nav {
   outline: 3px solid #201d1d;
   font-size: 20px;
   width: 98%;
-  max-width: 670px;
   margin: auto;
 }
 
@@ -116,13 +115,17 @@ header #nav {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 10px 0px;
 }
+
 .comicNav img {
-  width: 80px;
+  width: 70px;
   max-width: 98%;
-  padding-right: 30px;
+  margin: 0 auto;
+}
+.comicNav a {
+  display: block;
 }
 
 /* style comic page image */

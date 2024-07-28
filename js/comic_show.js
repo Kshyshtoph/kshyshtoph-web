@@ -49,7 +49,9 @@ function writePageTitle(div, toggleNum, char) {
     if (toggleNum) {
       //toggle whether you want to display the page number
       document.querySelector(div).innerHTML = `<h1>${
-        pgData[pg - 1].pgNum + char + pgData[pg - 1].title
+        pgData[pg - 1].pgNum
+          ? pgData[pg - 1].pgNum + char
+          : "" + pgData[pg - 1].title
       }</h1>`; //char denotes a separating character between the number and the title
     }
   }
