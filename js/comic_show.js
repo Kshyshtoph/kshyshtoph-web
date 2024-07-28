@@ -86,14 +86,7 @@ function writePage() {
       `" src="` +
       path +
       `" />
-      <div class="modal" id="modal-one">
-        <div class="modal-bg modal-exit"></div>
-        <div class="modal-container">
-          <h1>Amazing Modal</h1>
-          <h2>Pure Vanilla JavaScript</h2>
-          <button class="modal-close modal-exit">X</button>
-        </div>
-      </div>
+     
       
       `;
     return page;

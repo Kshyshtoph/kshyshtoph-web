@@ -6,9 +6,8 @@ document.querySelector(".writeHeader").innerHTML = `
 
         <div id="nav">
             <a href="index.html">HOME</a> |
-            <a href="archive.html">ARCHIVE</a> |
-            <a href="about.html">ABOUT</a> |
-            <a href="characters.html">CHARACTERS</a>
+            <a href="archive.html">Zbiory</a> |
+            <a href="about.html">Od autora</a> 
         </div>
     </header>
 `;
