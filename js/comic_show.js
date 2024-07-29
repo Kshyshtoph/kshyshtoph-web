@@ -49,7 +49,9 @@ function writePageTitle(div, toggleNum, char) {
     if (toggleNum) {
       //toggle whether you want to display the page number
       document.querySelector(div).innerHTML = `<h1>${
-        pgData[pg - 1].pgNum + char + pgData[pg - 1].title
+        pgData[pg - 1].pgNum
+          ? pgData[pg - 1].pgNum + char
+          : "" + pgData[pg - 1].title
       }</h1>`; //char denotes a separating character between the number and the title
     }
   }
@@ -79,21 +81,14 @@ function writePage() {
     console.log("alt text to print - " + altText);
     //
     page =
-      `<img data-modal="modal-one" alt="` +
+      `<img alt="` +
       altText +
       `" title="` +
       altText +
       `" src="` +
       path +
       `" />
-      <div class="modal" id="modal-one">
-        <div class="modal-bg modal-exit"></div>
-        <div class="modal-container">
-          <h1>Amazing Modal</h1>
-          <h2>Pure Vanilla JavaScript</h2>
-          <button class="modal-close modal-exit">X</button>
-        </div>
-      </div>
+     
       
       `;
     return page;
