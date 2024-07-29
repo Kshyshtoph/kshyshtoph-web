@@ -117,13 +117,19 @@ header #nav {
   align-items: center;
   justify-content: space-around;
   padding: 10px 0px;
+  max-width: 620px;
 }
 
 .comicNav img {
   width: 70px;
   max-width: 98%;
-  margin: 0 auto;
 }
+
+.comicNav > a:nth-child(1),
+.comicNav > a:nth-child(4) {
+  flex-grow: 1;
+}
+
 .comicNav a {
   display: block;
 }
