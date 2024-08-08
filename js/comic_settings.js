@@ -124,7 +124,6 @@ const pgData = [
 	</p>Ostatni raz tyle zwrotów akcji na raz napotkałem w bajce jak kot palił fajkę. </p>  `,
   },
   {
-    pgNum: 8,
     title: "Eos i Titonos",
     date: writeDate(2021, 3, 21),
     altText: "Here's even more alt text!",
@@ -137,7 +136,6 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
  `,
   },
   {
-    pgNum: 9,
     title: "Amor i Psyche",
     date: writeDate(2021, 3, 21),
     altText: "Here's even more alt text!",
