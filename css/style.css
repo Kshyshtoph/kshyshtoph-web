@@ -34,7 +34,6 @@ header img {
 
 /* header font */
 
-
 #showComic,
 header,
 h1,
@@ -220,12 +219,9 @@ footer p {
   margin: auto;
 }
 
-footer a {
-  color: #c8d32b;
-}
-
-footer a:hover {
-  color: #868d26;
+footer a:hover * {
+  stroke: #da5437;
+  fill: #da5437;
 }
 
 /* take away margins from the edges of the screen */
