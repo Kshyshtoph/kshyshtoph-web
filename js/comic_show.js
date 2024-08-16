@@ -60,6 +60,9 @@ function writePageTitle(div, toggleNum, char) {
 function writeAuthorNotes(div) {
   //display author notes
   if (pgData.length >= pg) {
+    if (pgData[pg - 1].authorNotes === undefined)
+      return document.querySelector(div).parentElement.remove();
+
     return (document.querySelector(div).innerHTML = `${
       pgData[pg - 1].authorNotes
     }`);

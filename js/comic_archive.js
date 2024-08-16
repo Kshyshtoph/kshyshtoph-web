@@ -7,11 +7,7 @@
 
 writeArchive("chapter1", 7, 15, -1, false, true); //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
 // (divClass: any, min: any, max: any, reverseOrder: any, useThumbs: any, useNums: any): void
-writeArchive("chapter2", 1, 6, -1, false, false);
-
-writeArchive("chapter3", 9, 12, -1, false, false);
-
-writeArchive("chapter4", 13, 15, -1, false, false);
+writeArchive("chapter2", 1, 6, -1, false, true);
 
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS
 
