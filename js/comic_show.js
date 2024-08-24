@@ -193,7 +193,7 @@ function writeNav(imageToggle) {
     if (pg > 1) {
       //wait until page 2 to make button active
       return (
-        `<a href="?pg=` +
+        `<a class="prev" href="?pg=` +
         1 +
         navScrollTo +
         `"/>` +
@@ -222,7 +222,7 @@ function writeNav(imageToggle) {
     if (pg > 1) {
       //wait until page 2 to make button active
       return (
-        `<a href="?pg=` +
+        `<a class="prev" href="?pg=` +
         (pg - 1) +
         navScrollTo +
         `"/>` +
@@ -243,7 +243,7 @@ function writeNav(imageToggle) {
     if (pg < maxpg) {
       //only make active if not on the last page
       return (
-        `<a href="?pg=` +
+        `<a class="next" href="?pg=` +
         (pg + 1) +
         navScrollTo +
         `"/>` +
@@ -264,7 +264,7 @@ function writeNav(imageToggle) {
     if (pg < maxpg) {
       //only make active if not on last page
       return (
-        `<a href="?pg=` +
+        `<a class="next" href="?pg=` +
         maxpg +
         navScrollTo +
         `"/>` +

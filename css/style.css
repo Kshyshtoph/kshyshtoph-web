@@ -128,9 +128,13 @@ header #nav {
   max-width: 98%;
 }
 
-.comicNav > a:nth-child(1),
-.comicNav > a:nth-child(4) {
+.comicNav > a.prev:nth-child(2) {
   flex-grow: 1;
+  text-align: left;
+}
+.comicNav > a.next:nth-child(1) {
+  flex-grow: 1;
+  text-align: right;
 }
 
 .comicNav a {
