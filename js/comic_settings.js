@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 15; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files.
+const maxpg = 16; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files.
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -87,7 +87,7 @@ const pgData = [
   },
   {
     title: "Zeus (jako satyr) i Antiope",
-    altText: "Here's even more alt text!",
+    altText: "Zeus (jako satyr) i Antiope",
     imageFiles: 1,
     authorNotes: `
             <p>Antiope była wysoko urodzoną niewiastą. Nie jest wprawdzie jasne z kim jej ojca zmajstrował Posejdon ani jakim Polis ówże ojciec dowodził, ale ogólnie historia jakich wiele - piękna księżniczka porwana i zbałamucona przez Zeusa - nota bene posejdonowego brata, ale kto by się zgłębiał w genealogię - pod postacią czegokolwiek mu tym razem przyszło do głowy, celem zapewne rozjuszenia Hery i spłodzenia królewskiego potomstwa. 
@@ -96,8 +96,7 @@ const pgData = [
   },
   {
     title: "Eos i Titonos",
-
-    altText: "Here's even more alt text!",
+    altText: "Eos i Titonos",
     imageFiles: 1,
     authorNotes: `
             <p> Ku mojemu rozczarowaniu greka nie działa jak nieślubne dziecko polszczyzny i angielskiego, więc Titonos nie zasłynął z wąchania przypadkowo napotkanych cycków. Jego historia jest jednak interesującym przykładem szczególnie niefortunnego kolesia.</p></br><p>
@@ -108,8 +107,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   },
   {
     title: "Amor i Psyche",
-
-    altText: "Here's even more alt text!",
+    altText: "Amor i Psyche",
     imageFiles: 1,
     authorNotes: `
             <p>Ta opowieść uczy, że z ostrymi przedmiotami należy obchodzić się ostrożnie, bo można przypadkiem się hajtnąć.</p></br><p>
@@ -120,8 +118,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   },
   {
     title: "Sokrates i Ksantypa",
-
-    altText: "Here's even more alt text!",
+    altText: "Sokrates i Ksantypa",
     imageFiles: 1,
     authorNotes: `
             <p>Jeśli wierzyć przekazom imię Karen wywodzi się bezpośrednio od równie negatywnie nacechowanego miana Ksantypa. I choć to pierwsze całkiem dokładnie określa background babsztyla, którego dotyczy, jest zdecydowanie mniej precyzyjne niż odpowiednik rodem z antycznej Grecji.</p></br><p>
@@ -131,7 +128,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   {
     title: "Min i całe miasto",
 
-    altText: "Here's even more alt text!",
+    altText: "Min i całe miasto",
     imageFiles: 1,
     authorNotes: `
           <p> W niektórych religiach do boskości dochodzi się na drodze postu i wyrzeczeń. U starożytnych Egipcjan bóg płodności obrał nieco inną ścieżkę.</p></br><p>
@@ -143,7 +140,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   {
     title: "Lilith",
 
-    altText: "Here's even more alt text!",
+    altText: "Lilith",
     imageFiles: 1,
     authorNotes: `
             <p>Pół legenda. Pół prawda. Pół gówno prawda. </p></br><p>
@@ -156,7 +153,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   {
     title: "Zeus (jako łabędź) i Leda",
 
-    altText: "Here's even more alt text!",
+    altText: "Zeus (jako łabędź) i Leda",
     imageFiles: 1,
     authorNotes: `
             <p>Łabędź jaki jest każdy widzi. Z daleka piękny i majestatyczny, ale jak już podpłynie po tę bułkę, którą od dzieciństwa tłuką Ci do głowy, żeby mu nie rzucać, nagle dociera do Ciebie, że to nie dla jego dobra, a po to, żebyś nie musiał wnętrza jego dzioba oglądać.</p></br><p>
@@ -170,7 +167,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   {
     title: "Zeus (jako byk) i Europa",
 
-    altText: "Here's even more alt text!",
+    altText: "Zeus (jako byk) i Europa",
     imageFiles: 1,
     authorNotes: `
             <p>Nauczka, by nie ufać każdemu bydlakowi, który wydaje się być milusi.</p></br><p>
@@ -180,12 +177,30 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
   },
   {
     title: "Shamhad i Enkidu",
-    altText: "Here's even more alt text!",
+    altText: "Shamhad i Enkidu",
     imageFiles: 1,
     authorNotes: `
             <p>W eposie o Gilgameszu pojawia się wątek Enkidu, którego równie dobrze można by nazwać Ugabuga. Był dziki, zły i niedobry. Tak niedobry, że zagrażał królewskiej władzy króla Gilgamesza, więc ten ostatni postanowił go ucywilizować. Wysłał więc świątynną prostytutkę Shamhad, by ta przemówiła do jego gadziego mózgu. </p></br><p></p>
 	Nie wchodząc w szczegóły – po tygodniu ciągłego przemawiania nasienie opuściło mózg dzikusa na tyle, że ostatecznie został najlepszą mordeczką tytułowego bohatera, razem stoczyli mnóstwo epickich bitew i w ogóle takich trzech jak ich dwóch nie było ani jednego.</p></br><p></p>
 	Jeśli zaś kogokolwiek obchodzi los oddanej sprawie Shamhad, to nikt nie uznał za stosowne o niej wspomnieć dopóki Enkidu nie zebrało się na umieranie i nie stwierdził, że wszystko to jej wina i on to w ogóle od początku chciał zostać w jaskini.</p>
+   `,
+  },
+  {
+    title: "Hej Ty!",
+    altText: "Hej Ty!",
+    imageFiles: 1,
+    authorNotes: `
+            <p>
+            Dla odmiany zin safe for work. Może nie do końca, zasadniczo jeśli nie jesteś młodym co po małpkę leci to alkohol w pracy wskazany nie jest.
+            Jak składać ziny zapewne nie wiesz, zapewne nie wiesz też co to. Masz <a href="https://letmegooglethat.com/?q=how+to+fold+a+zine" target="__blank">tu</a> linka, a skoro już zamykasz stronę za to, że nie patrzysz w co klikasz, pozwolę sobie przytoczyć backstory.
+            </p>
+            <p>
+            A backstory nie jest jakieś szczególnie łzawe, choć przywołuje sporo wspomnień o bolących palcach. W czasie gdy byłem jeszcze młody i przystojny, mój głos został uznany za godny zaśpiewania kawałka w którym treść refrenu dokładnie odpowiadała treści powyższej gazetki. Ot i cała historyja. A, no tak, ta część o bolących palcach - riff do tego kawałka jest pisany przez bardzo zdolnego muzyka, ja zaś zaliczam się do tych zdolnych inaczej. Stąd każda próba zagrania go kończyła się tygodniem zakwasów. Nie wierzysz? To spróbuj zagrać tak:
+            </p>
+            <p></p>
+            <p>
+            Tududututudu tudu tu tuu dududu tududututadududu </br> <b>tududududududu</b></p><p></p>
+            <p>I nie, to nie jest wąż rzeczny. Wąż rzeczny ma kilka "du" mniej.</p>
    `,
   },
 ];
