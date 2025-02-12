@@ -192,8 +192,7 @@ Całe love story kończy się tym, że żyli długo. Ciężko mi rozważać szcz
     authorNotes: `
             <p>
             Dla odmiany zin safe for work. Może nie do końca, zasadniczo jeśli nie jesteś młodym co po małpkę leci to alkohol w pracy wskazany nie jest. Jakby co możesz go sobie śmiało wydrukować, możesz też <a href="https://ko-fi.com/kshyshtoph">
-        się dorzucić
-</a> o czym prawdopodobnie się domyślasz. 
+        się dorzucić</a>, o czym prawdopodobnie się domyślasz. 
             Jak składać ziny zapewne nie wiesz, zapewne nie wiesz też co to. Masz <a href="https://letmegooglethat.com/?q=how+to+fold+a+zine" target="__blank">tu</a> linka, a skoro już zamykasz stronę za to, że nie patrzysz w co klikasz, pozwolę sobie przytoczyć backstory.
             </p>
             <p>
